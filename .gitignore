@@ -7,7 +7,13 @@ __pycache__/
 
 # Outputs (运行生成的图片/结果)
 out_day*/
+outputs/
 
-# Optional: test assets if you don't want to upload them
-# test.jpg
-# assets/
+# Test assets (输入图片/素材，不上传)
+assets/
+test_images/
+
+# Editor / OS
+.vscode/
+.DS_Store
+
