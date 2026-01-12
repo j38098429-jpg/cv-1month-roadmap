@@ -1,19 +1,24 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Virtual env
 .venv/
+venv/
+.env/
 
-# Outputs (运行生成的图片/结果)
-out_day*/
-outputs/
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
 
-# Test assets (输入图片/素材，不上传)
+# Local data (don't upload)
 assets/
 test_images/
 
-# Editor / OS
-.vscode/
-.DS_Store
-
+# Outputs (don't upload)
+outputs/
+out_day*/
+*.log
